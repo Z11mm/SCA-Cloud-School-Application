@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def homepage():
-    return 'Welcome to SCA Cloud School Application'
+    return 'Welcome to SCA Cloud School Application, this is my first assessment'
