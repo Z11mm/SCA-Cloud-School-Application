@@ -2,7 +2,8 @@
 Hi there! 
 
 This is my SCA Cloud School application assessment submission. Below is a description of a basic Python Flask web application, with instructions on how to build an image and deploy the application in a Docker container using Dockerfile.
-### Python/Flask application
+## Python/Flask application
+---
 Directory structure:
 ```
 ├── docker
@@ -26,7 +27,8 @@ COPY . .
 CMD ["python3", "-m", "flask", "run", "--host=0.0.0.0"]
 ```
 
-### Build image
+## Build image
+---
 `docker build --tag sca-cloud-school-application .`
 
 ```
@@ -45,7 +47,8 @@ CMD ["python3", "-m", "flask", "run", "--host=0.0.0.0"]
  => => naming to docker.io/library/sca-cloud-school-application
 ```
 
-### Expected Result
+## Expected 
+---
 ### Run image in container
 ```
 $ docker run -dp 5000:5000 sca-cloud-school-application
