@@ -27,7 +27,7 @@ CMD ["python3", "-m", "flask", "run", "--host=0.0.0.0"]
 ```
 
 ## Build image
-`docker build --tag sca-cloud-school-application .`
+`$ docker build --tag sca-cloud-school-application .`
 
 ```
 [+] Building 10.3s (14/14) FINISHED
