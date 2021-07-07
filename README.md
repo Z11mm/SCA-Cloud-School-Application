@@ -45,7 +45,7 @@ CMD ["python3", "-m", "flask", "run", "--host=0.0.0.0"]
  => => naming to docker.io/library/sca-cloud-school-application
 ```
 
-## Expected 
+## Expected Result
 ### Run image in container
 ```
 $ docker run -dp 5000:5000 sca-cloud-school-application
@@ -55,7 +55,7 @@ e940762365a0dc584bb6513923f19ce0fbe5804292fe730fed33a6f03be431c8
 ```
 $ docker ps
 CONTAINER ID   IMAGE                          COMMAND                  CREATED         STATUS         PORTS                                       NAMES
-e940762365a0   sca-cloud-school-application   "python3 -m flask ru…"   7 seconds ago   Up 5 seconds  ...
+e940762365a0   sca-cloud-school-application   "python3 -m flask ru…"   7 seconds ago   Up 5 seconds   0.0.0.0:5000->5000/tcp, :::5000->5000/tcp   zealous_beaver
 ```
 
 ### Check that application is running
